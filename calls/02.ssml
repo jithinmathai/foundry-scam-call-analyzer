@@ -1,0 +1,6 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-IN">
+  <voice name="en-IN-PrabhatNeural">Hello, I'm calling from Fabrikam Courier. I have a parcel for Ananya Rao. Will someone be home after four today?<break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural">Yes, I'll be home. Is there anything to pay?<break time="500ms"/></voice>
+  <voice name="en-IN-PrabhatNeural">No madam, it's prepaid. I'll just need you to sign on my device.<break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural">Perfect, see you then.<break time="500ms"/></voice>
+</speak>

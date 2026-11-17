@@ -1,0 +1,8 @@
+azure-identity>=1.19
+azure-ai-projects>=2.0
+azure-cognitiveservices-speech>=1.44
+azure-ai-textanalytics>=5.3
+azure-ai-contentunderstanding>=1.1
+openai>=1.99
+requests
+python-dotenv

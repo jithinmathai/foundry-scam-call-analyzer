@@ -1,0 +1,9 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="hi-IN">
+  <voice name="hi-IN-MadhurNeural"><prosody rate="+12%" pitch="+5%">हैलो, मैं कॉन्टोसो बैंक के केवाईसी विभाग से बोल रहा हूँ। आपका केवाईसी अपडेट नहीं हुआ है, आज रात आपका खाता बंद हो जाएगा।</prosody><break time="500ms"/></voice>
+  <voice name="hi-IN-SwaraNeural">क्या? लेकिन मैंने तो पिछले महीने ही सब जमा किया था।<break time="500ms"/></voice>
+  <voice name="hi-IN-MadhurNeural"><prosody rate="+12%" pitch="+5%">मैडम, सिस्टम में नहीं दिख रहा। जल्दी से अपना आधार नंबर बताइए, मैं अभी अपडेट कर देता हूँ।</prosody><break time="500ms"/></voice>
+  <voice name="hi-IN-SwaraNeural">मेरा आधार नंबर है <say-as interpret-as="digits">234567890123</say-as>।<break time="500ms"/></voice>
+  <voice name="hi-IN-MadhurNeural"><prosody rate="+12%" pitch="+5%">ठीक है। अब आपके फ़ोन पर एक ओटीपी आया होगा, वो बताइए, वरना खाता ब्लॉक हो जाएगा।</prosody><break time="500ms"/></voice>
+  <voice name="hi-IN-SwaraNeural">ओटीपी है <say-as interpret-as="digits">582640</say-as>।<break time="500ms"/></voice>
+  <voice name="hi-IN-MadhurNeural"><prosody rate="+12%" pitch="+5%">धन्यवाद, आपका केवाईसी अपडेट हो गया।</prosody><break time="500ms"/></voice>
+</speak>

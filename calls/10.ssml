@@ -1,0 +1,7 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-IN">
+  <voice name="en-IN-NeerjaNeural"><prosody rate="+12%" pitch="+5%">Hi, this is Riya from Wide World Importers HR. We have a part time job. You earn three thousand rupees a day by liking videos.</prosody><break time="500ms"/></voice>
+  <voice name="en-IN-PrabhatNeural">That sounds easy. What's the catch?<break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural"><prosody rate="+12%" pitch="+5%">No catch sir. First complete three free tasks. To unlock the premium tasks, you deposit five thousand rupees, and you get eight thousand back the same day.</prosody><break time="500ms"/></voice>
+  <voice name="en-IN-PrabhatNeural">Okay. My name is Rahul Verma. Where do I send the deposit?<break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural"><prosody rate="+12%" pitch="+5%">I will add you to our Telegram group. Send it to the UPI ID shared there. Hurry, only ten seats are left today.</prosody><break time="500ms"/></voice>
+</speak>

@@ -1,0 +1,7 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="hi-IN">
+  <voice name="hi-IN-SwaraNeural"><mstts:express-as style="empathetic">नमस्ते, मैं फैब्रिकैम क्लिनिक से प्रिया बोल रही हूँ। कल सुबह दस बजे डॉक्टर के साथ आपकी मुलाकात है।</mstts:express-as><break time="500ms"/></voice>
+  <voice name="hi-IN-MadhurNeural">जी, धन्यवाद। क्या मुझे कुछ साथ लाना है?<break time="500ms"/></voice>
+  <voice name="hi-IN-SwaraNeural"><mstts:express-as style="empathetic">बस अपनी पुरानी रिपोर्ट ले आइए। भुगतान आप क्लिनिक में ही कर सकते हैं, फ़ोन पर हमें कोई जानकारी नहीं चाहिए।</mstts:express-as><break time="500ms"/></voice>
+  <voice name="hi-IN-MadhurNeural">ठीक है, मैं समय पर पहुँच जाऊँगा।<break time="500ms"/></voice>
+  <voice name="hi-IN-SwaraNeural"><mstts:express-as style="empathetic">धन्यवाद, आपका दिन शुभ हो।</mstts:express-as><break time="500ms"/></voice>
+</speak>

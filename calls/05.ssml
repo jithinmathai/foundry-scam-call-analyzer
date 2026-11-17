@@ -1,0 +1,8 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-IN">
+  <voice name="en-IN-PrabhatNeural"><prosody rate="+12%" pitch="+5%">This is an automated message from Fabrikam Courier. A parcel booked in your name contains illegal items and has been seized by customs.</prosody><break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural">What? I haven't sent any parcel.<break time="500ms"/></voice>
+  <voice name="en-IN-PrabhatNeural"><prosody rate="+12%" pitch="+5%">I am now transferring you to the cyber crime officer.<break time="600ms"/> Madam, this is Inspector Sharma. Your Aadhaar is linked to a money laundering case. You are under digital arrest. Do not tell anyone or disconnect this video call.</prosody><break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural">I'm scared. What should I do?<break time="500ms"/></voice>
+  <voice name="en-IN-PrabhatNeural"><prosody rate="+12%" pitch="+5%">To prove your innocence, transfer your savings to our safe verification account. It will be returned after the investigation. What is your bank account number?</prosody><break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural">It's <say-as interpret-as="digits">50100234567890</say-as>.<break time="500ms"/></voice>
+</speak>

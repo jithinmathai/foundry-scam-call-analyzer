@@ -1,0 +1,9 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-IN">
+  <voice name="en-IN-PrabhatNeural"><prosody rate="+12%" pitch="+5%">Hello, am I speaking with Ananya Rao? This is Vikram from the Contoso Bank fraud prevention team.</prosody><break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural">Yes, this is Ananya. What happened?<break time="500ms"/></voice>
+  <voice name="en-IN-PrabhatNeural"><prosody rate="+12%" pitch="+5%">We have blocked a suspicious transaction of forty nine thousand rupees on your card ending <say-as interpret-as="digits">4021</say-as>. To reverse it, I need to verify you right now.</prosody><break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural">Oh no. What do you need?<break time="500ms"/></voice>
+  <voice name="en-IN-PrabhatNeural"><prosody rate="+12%" pitch="+5%">You will receive a one time password. Please read it out quickly, the transaction will go through in two minutes.</prosody><break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural">Okay, it says <say-as interpret-as="digits">739154</say-as>.<break time="500ms"/></voice>
+  <voice name="en-IN-PrabhatNeural"><prosody rate="+12%" pitch="+5%">Thank you madam. Please don't disconnect, and don't call the bank branch, it will delay the reversal.</prosody><break time="500ms"/></voice>
+</speak>

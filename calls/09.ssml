@@ -1,0 +1,7 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-IN">
+  <voice name="en-IN-PrabhatNeural"><prosody rate="+12%" pitch="+5%">Dear customer, this is Contoso Power. Your electricity will be disconnected tonight at nine thirty because last month's bill was not updated.</prosody><break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural">But I paid it online.<break time="500ms"/></voice>
+  <voice name="en-IN-PrabhatNeural"><prosody rate="+12%" pitch="+5%">It is not reflecting. Call our officer immediately on <say-as interpret-as="telephone">9876543210</say-as> and pay a ten rupee update fee through the link he sends.</prosody><break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural">My registered number is <say-as interpret-as="telephone">9123456780</say-as>, can you check again?<break time="500ms"/></voice>
+  <voice name="en-IN-PrabhatNeural"><prosody rate="+12%" pitch="+5%">No time madam, the line man is already on the way. Please pay now.</prosody><break time="500ms"/></voice>
+</speak>

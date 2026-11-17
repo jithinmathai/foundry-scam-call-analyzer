@@ -1,0 +1,8 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-IN">
+  <voice name="hi-IN-MadhurNeural"><prosody rate="+12%" pitch="+5%">बधाई हो! आपने फैब्रिकैम लकी ड्रॉ में पच्चीस लाख रुपये जीते हैं।</prosody><break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural">Really? I don't remember entering any lucky draw.<break time="500ms"/></voice>
+  <voice name="hi-IN-MadhurNeural"><prosody rate="+12%" pitch="+5%">आपका नंबर अपने आप चुना गया है। इनाम पाने के लिए बस पाँच हज़ार रुपये की प्रोसेसिंग फीस जमा करनी होगी।</prosody><break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural">Why should I pay money to receive a prize?<break time="500ms"/></voice>
+  <voice name="hi-IN-MadhurNeural"><prosody rate="+12%" pitch="+5%">यह सरकारी टैक्स है, मैडम। आज ही यूपीआई से भेजिए, वरना इनाम किसी और को चला जाएगा।</prosody><break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural">Send me the details by email. It's ananya dot rao at example dot com.<break time="500ms"/></voice>
+</speak>

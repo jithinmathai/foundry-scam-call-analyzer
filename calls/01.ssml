@@ -1,0 +1,7 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-IN">
+  <voice name="en-IN-NeerjaNeural">Good afternoon, this is Meera from Contoso Bank. I'm calling to confirm that your new debit card was dispatched today.<break time="500ms"/></voice>
+  <voice name="en-IN-PrabhatNeural">Oh, thanks. When will it arrive?<break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural">Within three working days. Please activate it in the Contoso Bank app.<break time="300ms"/> And remember, the bank will never ask you for your PIN or a one time password on a call.<break time="500ms"/></voice>
+  <voice name="en-IN-PrabhatNeural">Good to know. Thank you.<break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural">You're welcome. Have a nice day.<break time="500ms"/></voice>
+</speak>

@@ -1,0 +1,7 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-IN">
+  <voice name="en-IN-PrabhatNeural"><prosody rate="+12%" pitch="+5%">Hello, I'm calling from the Northwind Windows Security Centre. Your computer is sending virus alerts to our server.</prosody><break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural">Really? It seems fine to me.<break time="500ms"/></voice>
+  <voice name="en-IN-PrabhatNeural"><prosody rate="+12%" pitch="+5%">The virus is hidden. Please open your browser and install the remote support app from northwind-help dot example, then read me the nine digit access code.</prosody><break time="500ms"/></voice>
+  <voice name="en-IN-NeerjaNeural">Okay, the code is <say-as interpret-as="digits">418207993</say-as>.<break time="500ms"/></voice>
+  <voice name="en-IN-PrabhatNeural"><prosody rate="+12%" pitch="+5%">Thank you. Now log in to your net banking so I can check whether the hackers took any money.</prosody><break time="500ms"/></voice>
+</speak>
