@@ -14,7 +14,8 @@ from azure.ai.textanalytics import TextAnalyticsClient
 
 from common import RESULTS, TRANSCRIPTS, endpoint, load_env, load_json, manifest, save_json, sdk_credential
 
-DIGIT_CODE = re.compile(r"(?<!\w)(?:\d[\s-]?){4,12}(?!\w)")
+# Digits separated by spaces, dashes, dots or commas (Indian grouping such as 5,82,640 is common in transcripts)
+DIGIT_CODE = re.compile(r"(?<!\w)(?:\d[\s,.-]?){4,12}(?!\w)")
 
 
 def digits(s: str) -> str:

@@ -37,11 +37,18 @@ about 40 seconds each, a few hundred Language and Translator calls, and ten LLM 
 
 One run, gpt-4.1-mini (Global Standard), November 2026:
 
-- **Classification:** all **7 scams flagged**, **0 of 3 genuine calls** flagged. That includes call 01,
-  a genuine bank call that mentions OTPs only to warn the customer.
-- **Spoken warnings:** advice specific to each scam type, spoken in Hindi for the Hindi calls (07, 08) via Translator and `hi-IN-SwaraNeural`.
-  For example, call 04: *"Do not share OTPs with anyone and hang up immediately; contact your bank directly using official numbers."*
-- Ten calls is a small test set: it shows the pipeline works, not production accuracy. Run it and compare your own report.
+| Stage | Result |
+|---|---|
+| Diarization | 2 speakers found on all 10 calls |
+| Transcription vs script | 0.91–0.99 word similarity on 9 calls; **0.62** on the Hindi/English code-switching call (08) |
+| Language detection | Call 08 labelled as one language (Hindi) at document level, hence per-line detection |
+| PII redaction (Azure Language) | Caught names, card digits, account number, access code, Aadhaar-style ID, phone numbers, email. **Missed both OTPs** (04, 07) |
+| App-side digit rule | Fixed 04; 07 needed the rule widened to allow comma grouping (e.g. `5,82,640`) |
+| Classification | **10/10**: all 7 scams flagged with the correct scam type (risk 85–95), all 3 genuine calls passed (risk 0–5) |
+| Spoken warnings | Specific advice per scam type, in Hindi for calls 07 and 08 |
+| Content Understanding `prebuilt-audioSearch` | No content returned; model defaults weren't configured on the resource |
+
+Ten synthetic calls show the pipeline works, not production accuracy. Run it and compare your own report.
 
 ## Files
 
